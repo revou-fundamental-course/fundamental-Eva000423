@@ -1,0 +1,64 @@
+body{
+    background-color: olive;
+}
+
+main{
+    padding: 32px;
+}
+
+.nav-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo-icon{
+    height: 50px;
+    width: 50px;
+
+    /* For image icon */
+    background-image: url(https://picsum.photos/200/300);
+    background-size: cover;
+    border-radius: 50%;
+}
+
+nav>a{
+    padding-left: 32px;
+    padding-right: 32px;
+    border: 1px solid;
+}
+
+.banner-container{
+    height: 350px;
+    width: 100%;
+    border: 1px solid; 
+}
+
+.profile-content{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.profile-item{
+    text-align: center;
+}
+.profile-icon{
+    height: 80px;
+    width: 80px;
+    
+    /* For image icon */
+    background-size: cover;
+    border-radius: 80%;
+}
+
+.profile-1{
+    background-image: url(https://picsum.photos/200/300?grayscale);
+}
+.profile-2{
+    background-image: url(https://picsum.photos/id/870/200/300?grayscale&blur=2);
+}
+.profile-3{
+    background-image: url(https://picsum.photos/200/300/?blur);
+}
+
+
