@@ -15,7 +15,7 @@
         <nav>
             <a>Home</a>
             <a href="#our-profile">Our Profile</a>
-            <a>Portofolio</a>
+            <a href="#portofolio" >Portofolio</a>
             <a href="#message-us">Message Us</a>
         </nav>
     </header>
@@ -60,64 +60,56 @@
             <hr />
          </section>
 
+         <!-- Ini Portofolio Conten-->
+         <section id="portofolio">
+          <header>
+              <h1>Portofolio</h1>
+          </header>
+          <article>
+            <textarea name="Message" id="message" cols="50" rows="4" required>Portofolio Mini Course Revou</textarea>
+          </article>
+          <hr />
+       </section>
+
         <!-- Ini Message Us Conten-->
          <section id="message-us">
             <header>
                 <h1>Message Us</h1>
             </header>
             <article>
-                <div class="container">
-                    <form action="/action_page.php">
-                      <div class="row">
-                        <div class="col-25">
-                          <label for="fname">First Name</label>
-                        </div>
-                        <div class="col-75">
-                          <input type="text" id="fname" name="firstname" placeholder="Your name..">
-                        </div>
-                      </div>
-                      <div class="row">
-                        <div class="col-25">
-                          <label for="lname">Last Name</label>
-                        </div>
-                        <div class="col-75">
-                          <input type="text" id="lname" name="lastname" placeholder="Your last name..">
-                        </div>
-                      </div>
-                      <div class="row">
-                        <div class="col-25">
-                          <label for="birthday">Birthday</label>
-                        </div>
-                        <div class="col-75">
-                         <form action="/action_page.php">
-                    <input type="date" id="birthday" name="birthday">
-                      </form>
-                      <form>
-                      <div class="row">
-                        <div class="col-25">
-                          <label for="male">Male</label>
-                          <input type="radio" name="gender" id="male" value="male" checked>
-                          <label for="female">Female</label>
-                          <input type="radio" name="gender" id="female" value="female">
-                        </div>
-                    </form>
-                        </fieldset>
-                          </select>
-                        </div>
-                      </div>
-                      <div class="row">
-                        <div class="col-25">
-                          <label for="subject">Messages</label>
-                        </div>
-                        <div class="col-75">
-                          <textarea id="messages" name="messages" placeholder="Write something.." style="height:50px"></textarea>
-                        </div>
-                      </div>
-                      <div class="row">
-                        <input type="submit" value="Submit">
-                      </div>
-                    </form>
-                  </div>
+              <div>
+                <form action="" id="inputForm">
+                  <label for="name>">Nama</label>
+                  </form>
+                  <input type="text" name="name" id="name" requiered>
+                </br>
+                  <label for="birthdaydate">Tanggal Lahir</label>
+              </br>
+                  <input type="date" name="birthdate" id="birthdate" required></br>
+                  <label>Jenis Kelamin</label></form>
+                  <br>
+                  <select name="gender" id="gender" class="jk-select">
+                    <option value="laki-laki">Laki-laki</option>
+                    <option value="perempuan">Perempuan</option>
+                  </select>
+                </br>
+                  <label for="Message">Pesan</label></br>
+                  <textarea name="Message" id="message" cols="50" rows="4" required></textarea>
+              </br>
+                  <input type="submit" value="submit">
+            </br>
+            <label>
+              <textarea name="Message" id="message" cols="50" rows="4" required></textarea>
+            </label>
+                  
+                </form>
+              </div>
+              <div class="result-container" id="resultcontainer">
+                <p id="displayName"></p>
+                <p id="displayBirthday"></p>
+                <p id="displayGender"></p>
+                <p id="displayMessage"></p>
+              </div>
             </article>
          </section>
     </main>
