@@ -1,5 +1,5 @@
 body{
-    background-color: olive;
+    background-color:#9f8080;
 }
 
 main{
@@ -62,3 +62,10 @@ nav>a{
     background-image: url(https://picsum.photos/200/300/?blur);
 }
 
+.portofolio-container{
+    background-color: #C8B6B6;
+}
+
+.messageus-container{
+    background-color:#C8B6B6 ;
+}
